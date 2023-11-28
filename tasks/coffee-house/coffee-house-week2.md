@@ -6,7 +6,7 @@
 
 In this part of the task, we will adapt the previously created pages (**Home** and **Menu > Coffee**) for tablets and mobile devices.
 The goal is to match the layout with the corresponding [Design in Figma](https://www.figma.com/file/SAoBmuOqTfguehdT4IFRxQ/Coffee-House?type=design&node-id=0-1&mode=design&t=qis81E9Ovgx47eVl-0) at screen resolutions of 1440px, 768px, and 380px.
-The choice of breakpoints and their number is left to the student's discretion.  
+The choice of breakpoints and their number is left to the student's discretion.
 For all other resolutions up to 380px, ensure:
 
 - There is no horizontal scrollbar.
@@ -15,20 +15,20 @@ For all other resolutions up to 380px, ensure:
 - Image proportions are maintained.
 - No white spaces are present to the right of the blocks.
 
-To make responsive design, use relative units of measurement (%, rem, vh, etc).
+To make a responsive design, use relative units of measurement (%, rem, vh, etc).
 
 ## Workflow
 
-1. The task should be completed in private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).
+1. The task should be completed in the private repository of the school. [How to work with a school's private repository](https://docs.rs.school/#/private-repository).
 2. Create a new branch named `coffee-house-week2` from the `coffee-house` branch. You will find the `coffee-house` folder containing the project files completed in the previous stage within this branch.
 3. Continue working on the task within the branch you have created.
 4. Ensure your work meets the [CrossCheck Criteria](#crosscheck-criteria).
 5. Independently evaluate your work according to the provided [Criteria for Evaluation](#criteria-for-evaluation), keeping in mind the [DevTools Responsiveness Check Details](#devtools-responsiveness-check-details) and the [Specifics of Verifying Layout](#specifics-of-verifying-layout).
-6. Create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, resolve any conflicts that arise, and then marge the Pull Request.  
+6. Create a Pull Request from the `coffee-house-week2` branch to the `coffee-house` branch, resolve any conflicts that arise, and then merge the Pull Request.
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, yoy can create and merge a Pull Request from the `coffee-house` branch to the `gh-pages` branch.  
+7. After completing the cross-check for the previous part of the task, update your project's deployment. For example, you can create and merge a Pull Request from the `coffee-house` branch to the `gh-pages` branch.
    The title of the Pull Request can be chosen at your discretion. A description for this Pull Request is not necessary.
-8. Once you have completed your work, update the Pull Request from the `coffee-house` branch to the `main` branch to include the newly added functionality from the second part of the task.  
+8. Once you have completed your work, update the Pull Request from the `coffee-house` branch to the `main` branch to include the newly added functionality from the second part of the task.
    It is not required to merge this Pull Request.
 9. Submit the deployment link of your project in the "Cross-Check Submit" section of the [RS APP](https://app.rs.school/).
 10. After the task deadline has passed, the cross-check phase will start, lasting three days. To earn points for the task, you must review all the projects assigned to you for cross-checking and submit your review results in the "Cross-Check Review" section of the [RS APP](https://app.rs.school/).
@@ -38,7 +38,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 1. The layout of the pages aligns the design at a screen width of 1440px: **+14**
    - `<header>` block on each page: **+2**
    - `Enjoy` block on `home` page: **+2**
-   - `Favourites Coffee` block on `home` page: **+2**
+   - `Favorite Coffee` block on `home` page: **+2**
    - `About` block on `home` page: **+2**
    - `Mobile App` block on `home` page: **+2**
    - `Menu` block on `menu` page: **+2**
@@ -46,7 +46,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 2. The layout of the pages aligns the design at a screen width of 768px: **+14**
    - `<header>` block on each page: **+2**
    - `Enjoy` block on `home` page: **+2**
-   - `Favourites Coffee` block on `home` page: **+2**
+   - `Favorite Coffee` block on `home` page: **+2**
    - `About` block on `home` page: **+2**
    - `Mobile App` block on `home` page: **+2**
    - `Menu` block on `menu` page: **+2**
@@ -54,7 +54,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 3. The layout of the pages aligns the design at a screen width of 380px: **+14**
    - `<header>` block on each page: **+2**
    - `Enjoy` block on `home` page: **+2**
-   - `Favourites Coffee` block on `home` page: **+2**
+   - `Favorite Coffee` block on `home` page: **+2**
    - `About` block on `home` page: **+2**
    - `Mobile App` block on `home` page: **+2**
    - `Menu` block on `menu` page: **+2**
@@ -67,7 +67,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 5. During smooth resizing of the browser window from 1440px to 380px, the layout occupies the full width of the window (including specified margins), elements adjust their sizes and positions appropriately without full scaling, no elements overlap, and images maintain their correct aspect ratios: **+8**
    - On `home` page: **+4**
    - On `menu` page: **+4**
-6. At screen widths of 768px and below, the menu and navigation buttons in the header are concealed on both pages, and a burger menu icon is displayed: **+4**  
+6. At screen widths of 768px and below, the menu and navigation buttons in the header are concealed on both pages, and a burger menu icon is displayed: **+4**
    (Note: Activation of the burger menu icon is not evaluated at this stage.)
 7. Hover effects are active on desktop devices (as per the `Desktop` device type in DevTools) and are disabled for mobile devices (as per the `Mobile` device type in DevTools) on both pages: **+4**
 8. The layout for both pages is validated and error-free according to the W3C Validator (https://validator.w3.org/): **+12**
@@ -81,7 +81,7 @@ To make responsive design, use relative units of measurement (%, rem, vh, etc).
 
 **Maximum score for the task: 90 points**
 
-The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.  
+The scoring for each requirement is detailed in the [CrossCheck Criteria](#crosscheck-criteria) section.
 Penalties are outlined in the [Penalties](#penalties) section.
 
 Any disputed issues should be resolved in favor of the student being assessed.
